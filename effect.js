@@ -148,11 +148,11 @@ $('document').ready(function(){
 		$('#b3').attr('id','b33')
 		$('#b4').attr('id','b44')
 		$('#b5').attr('id','b55')
-		$('#b11').animate({top:240, left: 530},500);
-		$('#b22').animate({top:240, left: 430},500);
-		$('#b33').animate({top:240, left: 330},500);
-		$('#b44').animate({top:240, left: 230},500);
-		$('#b55').animate({top:240, left: 130},500);
+		$('#b11').animate({top:240, left:530},500);
+		$('#b22').animate({top:240, left:430},500);
+		$('#b33').animate({top:240, left:330},500);
+		$('#b44').animate({top:240, left:230},500);
+		$('#b55').animate({top:240, left:470},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
